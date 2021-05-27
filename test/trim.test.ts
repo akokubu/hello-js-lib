@@ -3,7 +3,7 @@ import trim from "../src/trim";
 describe("trim test", (): void => {
   test("no space", (): void => {
     const response: string = trim("test");
-    expect(response).toBe("test");
+    expect(response).toBe("test?");
   });
 
   test("left space", (): void => {
